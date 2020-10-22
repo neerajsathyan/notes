@@ -10,16 +10,16 @@ self.addEventListener('install', function(event) {
 
       // Define what we want to cache
       return cache.addAll([
-        '/',
-        'index.html',
-        'js/app.js',
-        'js/jquery.min.js',
-        'css/style.css',
-        'favicon.ico',
-        'manifest.json',
-        'img/icon-60.png',
-        'img/icon-114.png',
-        'img/icon-152.png'
+        '/notes/',
+        '/notes/index.html',
+        '/notes/js/app.js',
+        '/notes/js/jquery.min.js',
+        '/notes/css/style.css',
+        '/notes/favicon.ico',
+        '/notes/manifest.json',
+        '/notes/img/icon-60.png',
+        '/notes/img/icon-114.png',
+        '/notes/img/icon-152.png'
       ]);
     })
   );
